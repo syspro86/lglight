@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="LGLight.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LGLight"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Slider x:Name="slider" HorizontalAlignment="Stretch" Margin="56,10,80,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="적용" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" RenderTransformOrigin="-15.479,2.932" Width="50" Click="button_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="54" Margin="10,10,0,0" Text="밝기" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" TextAlignment="Center" />
+        <TextBlock x:Name="textBlockDeviceState" HorizontalAlignment="Left" Margin="10,59,0,0" Text="연결상태:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
